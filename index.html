@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Social proof section</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Spartan&display=swap');
+      body{font-family: 'Spartan',sans-serif;font-size: 15px;}
+      div{display: flex; flex-direction: row;width: 80%;margin-left: 5%;margin-right: 5%;margin-top: 5%;}
+      h1{color: hsl(300, 43%, 22%);font-weight:700;}
+      .text{display: flex;flex-direction: column; width: 80%;}
+      .text p{color:hsl(303, 10%, 53%)}
+      .rating{display: flex;flex-direction: column;width: 100%;margin-left: none;}
+      .rating p{color: hsl(300, 43%, 22%);background-color: hsl(300, 24%, 96%);font-weight: 700;padding-left: 5%;padding-right: 5%;padding-top: 3%;padding-bottom: 3%;border: 1px solid white;border-radius: 5%;}
+      .rating img{margin-left: 2px;margin-right: 2px;}
+      .r2{margin-left: 10%;}
+      .r3{margin-left: 20%;}
+      .lower{display: flex;flex-direction: row;}
+      .lower img{border: 1px solid hsl(300, 43%, 22%);border-radius: 50%;width: 40px;height: 40px;padding-right: 10px;}
+      .lower div{width: 28%;background-color: hsl(300, 43%, 22%);flex-direction: column;margin-left: 20px;margin-right: 20px;border: 1px solid white;border-radius: 3%;justify-content: center;}
+      .lower div p{color: hsl(0, 0%, 100%);font-size: 12px;padding-left: 20px;padding-top: 20px;padding-bottom: 10px;margin: 0;padding-right: 20px;}
+      span{padding-left: 55px;}
+      .review2{margin-top: 7%;}
+      .review3{margin-top: 9%;} 
+      
+      @media screen and (max-width:600px) {
+        div{display: flex;flex-direction: column;}
+        .r2{margin-left: 0%;}
+        .r3{margin-left: 0px;}
+        .lower{display: flex;flex-direction: column;}
+        .lower div{width: 100%;}
+        .attribution{margin-top: 10%;}
+
+        
+      }
+      
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+   <div class='upeer'>
+    <div class='text'>
+      <h1>10,000+ of our<br> users love our <br> products.</h1>
+      <p>We only provide great products combined with excellent <br>customer service.See what out satisfied customers <br> are saying.</p>
+
+    </div>
+    <div class='rating'>
+      <p class='r1'><img src="../social-proof-section-master/images/icon-star.svg" alt="star icon"><img src="../social-proof-section-master/images/icon-star.svg" alt="star icon"><img src="../social-proof-section-master/images/icon-star.svg" alt="star icon"><img src="../social-proof-section-master/images/icon-star.svg" alt="star icon"><img src="../social-proof-section-master/images/icon-star.svg" alt="star icon"> Rated 5 Star in Reviews</p>
+      
+      <p class="r2"><img src="../social-proof-section-master/images/icon-star.svg" alt="star icon"><img src="../social-proof-section-master/images/icon-star.svg" alt="star icon"><img src="../social-proof-section-master/images/icon-star.svg" alt="star icon"><img src="../social-proof-section-master/images/icon-star.svg" alt="star icon"><img src="../social-proof-section-master/images/icon-star.svg" alt="star icon"> Rated 5 Stars in ReportGuru</p>
+      
+      <p class='r3'><img src="../social-proof-section-master/images/icon-star.svg" alt="star icon"><img src="../social-proof-section-master/images/icon-star.svg" alt="star icon"><img src="../social-proof-section-master/images/icon-star.svg" alt="star icon"><img src="../social-proof-section-master/images/icon-star.svg" alt="star icon"><img src="../social-proof-section-master/images/icon-star.svg" alt="star icon"> Rated 5 Stars in BestTech</p>
+
+    </div>
+   </div>
+   <div class='lower'>
+     <div class='review1'>
+      
+      <p><img src="../social-proof-section-master/images/image-colton.jpg" alt="user1 image"> Colton Smith <br><span style="color: hsl(303, 10%, 53%);">Verified Buyer</span></p>
+      <p>"We needed the same print design as <br>the one we had ordered a week prior.Not <br>only did they find the original order,but <br>we also recieved it in time.Excellent!"</p>
+     </div>
+     <div class='review2'>
+       <p><img src="../social-proof-section-master/images/image-irene.jpg" alt="user2 image">Irene Roberts <br><span style="color:hsl(303, 10%, 53%)">Verfied Buyer</span></p>
+       <p>"Customer service is always excellent and <br> very quick turn around. completely <br>delighted with the simplicity of the <br>purchase and the speed of delivery."</p>
+
+     </div>
+     <div class='review3'>
+       <p><img src="../social-proof-section-master/images/image-anne.jpg" alt="user3 image">Anne Wallace <br> <span style="color: hsl(303, 10%, 53%);">Verfied Buyer</span></p>
+       <p>"Put an order with this company and can <br>only praise them for the very high <br> standard.will definately use them again<br> and recommend them to everyone!"</p>
+
+     </div>
+   </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Rahul Solanki</a>.
+    </div>
+  </body>
+</html>
